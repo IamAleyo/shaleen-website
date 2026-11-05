@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color:rgb(19, 228, 255)>
+    color: black;
+    font -family: georgia, serif;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header 1 {
+    font-size: 42px;
+
+}
+
+nav {
+    background-color: rgb(23, 235, 199);
+    padding: 25px;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: cyan;
+}
+
+.name-container {
+    overflow: hidden;
+    padding: 15px 0;
+}
+.moving_name{
+    Font-size: 48px;
+    font-weight: bold;
+    white-space: nowrap;
+    animation: move 10s linear infinite;
+}
+
+@keyframes moveName [
+    from {transform: translateX(-100%);
+    }
+]to {transform: translateX(100vw);
+    }
+}main {
+    padding: 20px;
+    min-height: 350px;
+}  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}  
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(178, 230, 173);
+    padding: 20px;
+    text-align: center;
+    color: lime;
+}
